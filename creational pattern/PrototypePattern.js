@@ -26,3 +26,15 @@ const car2 = Object.create(car)
 car2.drive();
 car2.brake();
 console.log(car2.numofWheels);
+
+console.log((car1.__proto__) == car)
+console.log((car2.__proto__) == car)
+
+//! The prototypal pattern has native support in JavaScript. It involves cloning an 
+//! already-configured object. Hence, the cloned objects are created by reference instead 
+//! of having their own separate copies. This boosts the performance and efficiency of code. 
+//! This pattern can also be used in the following cases:
+
+//! To eliminate the overhead of initializing an object
+//! When you want the system to be independent about how the products in it are created
+//! When creating objects from a database, whose values are copied to the cloned object
