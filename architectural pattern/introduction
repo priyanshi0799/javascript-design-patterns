@@ -1,0 +1,3 @@
+These patterns help build an efficient architecture for the application. They provide a 
+set of subsystems with assigned responsibilities that include guidelines on constructing 
+relationships between these subsystems.
